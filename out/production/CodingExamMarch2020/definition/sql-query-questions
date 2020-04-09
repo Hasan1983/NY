@@ -2,18 +2,38 @@ This file contains SQL questions.
 Please read the questions and answer.
 
 What is Database?
-A.
+A.Database is the storage for data.
 
 What is DBMS?
+A. A system  that contains databases called DBMS.
+
 What is the difference between SQL and MySQL?
+A.SQl is a structutre Query language that access databases. my sql is the name of a databases.
+
 What is RDBMS? How is it different from DBMS?
+A.RDbms stand for Relatiol database management system.
+DBMS stores data as a file where RDBMS Data is stored in the form of tables.
+
 What are Tables and Fields?
+A. A table is collection of related data. it is consists of row ,columns, and cells.
+Fields appear as columns in a database table.
+
 What is SQL?
+A. SQL is a standard language for storing, manipulating and retrieving data from databases.
 What are Constraints in SQL?
+
 What is a Primary Key?
+A.Primary key uniquely identifies each record in a table. A table can have
+only one Promary key. primary key can not contain null values.
+
 What is a Foreign Key?
+A.foreign key is the linking relationship between tables.
+
 What is Normalization?
+normalization is the process of table disiging.
+
 What is Denormalization?
+A.Denormalization is a database optimization technique in which we add redundant data to one or more tables.
 
 You have 2 tables given below.
 
@@ -33,14 +53,28 @@ CustomerID	   CustomerName	    CustomerPhone	     Country
 
 Please do the following on above Order table and Customer table:
 
-Inner Join:
+Inner Join:SELECT Orders.OrderID, Customers.CustomerName FROM Orders
+INNER JOIN Customers ON Orders.CustomerID = Customers.CustomerID;
+
 Left Join:
+SELECT Orders.OrderID, Customers.CustomerName FROM Orders
+Left JOIN Customers ON Orders.CustomerID = Customers.CustomerID;
+
 Right Join:
+SELECT Orders.OrderID, Customers.CustomerName FROM Orders
+Right JOIN Customers ON Orders.CustomerID = Customers.CustomerID;
+
 Full Join:
+SELECT Orders.OrderID, Customers.CustomerName FROM Orders
+full JOIN Customers ON Orders.CustomerID = Customers.CustomerID;
 
 On Customer Table, please Insert one row.
+A.insert into customer(CustomerID,CustomerName,CustomerPhone,Country)values('4','adam','1-347-244-9789','mexico');
 
 On Order Table, please Update one row.
+UPDATE order
+SET orderId = '20509'
+WHERE CustomerID = 1;
 
 
 

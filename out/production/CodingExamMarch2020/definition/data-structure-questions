@@ -1,11 +1,14 @@
 Please answer the below Data Structure Questions:
 
 why do we need data structure?
-A.
-
+A.A data structure is a particular way of storing and organizing data in a computer so that it can be used efficiently.
 
 What are the various operations that can be performed on different Data Structures?
+A.Following operations can be performed on the data structures:
+1. Traversing. 2. Searching. 3. Inserting. 4. Deleting. 5. Sorting. 6. Merging.
+
 List out the areas in which data structures are applied extensively?
+A.numerical analysis, operating system, , compiler design, database management,
 what is an Array?
 what is the difference between the Array and ArrayList?
 what is LinkedList?
