@@ -1,45 +1,82 @@
 Please answer the below core-java Questions:
 
 What is programing language?
-A.
-
+A. a programig language is a formal language that tells the computer what to do in order to work.
 
 What jdk contains or composed of and define each components?
-A.
-
-
-
-
+A. Jdk contains Jre, jvm, an interpreter, a compilar, an archivar(jar),
+a documentation generator(javadoc).
 
 What is IDE?
-A.
-
-
+A. IDE stands for integrated development enviroment.
 
 What are the IDEs available in the market to support java?
-A.
-
-
+A. Eclipse, IntelijIdea, Netbens, j developer,
 
 Explain the entire java life cycle.
+when we write anythinh on Ide it becomes source code(makes .javafile) afterthat compiler
+makes source code to bytecode(.classfile) and then Jvm load the bytecode and verifi all the codes
+and jit makes perfomance of the code and then execute the code.
+
 what is class?
-class is a blue print of an object
+class is a blue print of an object.
 
 What is object?
+A. object is an instance of a class.
+
 What is the entry point of an application?
+main method.
+
 Why main is static?
+A. Because of static we dont need to create an object to access the property
+of a class. main method is the entry point of the java applicaction.we need to
+level main as a staic.
+
 Which class is the superclass of all classes?
+A.object class
+
 What is difference between path and classpath variables?
+A.classPath is a directory and path is use to point the location.path is the location of
+bin file.
+
 What is the difference between an Interface and Abstract class?
+A. Iterface has abstract method which is not impemented.and static method which is
+implemeted.on the oher hand abstract class has non asstract method which is impementet
+and abstract method which is not implemented.out of two you can't be institiated.
+
 Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
+A. no, you can call their method from subclass.
+
 what is Access Specifier?
+A.access speciar is allow or not allow to access to varriable, classes, and method.
+
 What is OOP ? Define each feature of java OOP.
+A.oop stands for object oriented program.
+Encapsulation, Inheritance,Interface,Abstraction.
+
 What is Java Package and which package is imported by default?
+A. packages in java are the way to organize files when a project has many modoles.
+util, lang,sql,awt.
+
 What is API? Name list of API that you have used so far.
+A.API stands for application Proagramig InterFace.
+java.util, java.lang,java.io
+
 Does java support multiple inheritance, explain why or why not?
+A. java doesn't allow multiple inheritance but if you want to achive it you have
+do it by interface.
+
 What is method overloading and when it happens?
+A. when a class have more than one method and the name of the method is
+same but the parameter ot signature is diffarent that is called method overloading.
+It is happen in compileTime.
+
 Explain exceptions in java and how to handle it.
+A. when a program runs but intarupt we call it exceptions.
+exceptions is handle by five keyword: try, catch,throuh. throughs, finnaly.
+
 What is static keyword in java? How it has been used in variables and methods ?
+A.
 What is final and how it has been used variables and methods?
 What is final, finally and finalize?
 What is a constructor ?
