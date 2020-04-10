@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7553fd03-1a68-47e5-b19c-6ff669c34736" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/definition/sql-query-questions" beforeDir="false" afterPath="$PROJECT_DIR$/src/definition/sql-query-questions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datastructure/CollectionView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/CollectionView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datastructure/UseArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/UseArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datastructure/UseMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/UseMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datastructure/UseQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/UseQueue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,59 +44,17 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PrimeNumber">
+  <component name="RunManager" selected="Application.UseArrayList">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
-    <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="math.problems.Factorial" />
+    <configuration name="CollectionView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="datastructure.CollectionView" />
       <module name="CodingExamMarch2020" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="math.problems.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="math.problems.Fibonacci" />
-      <module name="CodingExamMarch2020" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="math.problems.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MakePyramid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="math.problems.MakePyramid" />
-      <module name="CodingExamMarch2020" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="math.problems.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Pattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="math.problems.Pattern" />
-      <module name="CodingExamMarch2020" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="math.problems.*" />
+          <option name="PATTERN" value="datastructure.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,6 +69,48 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="math.problems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UseArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="datastructure.UseArrayList" />
+      <module name="CodingExamMarch2020" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="datastructure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UseMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="datastructure.UseMap" />
+      <module name="CodingExamMarch2020" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="datastructure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UseQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="datastructure.UseQueue" />
+      <module name="CodingExamMarch2020" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="datastructure.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UseArrayList" />
+        <item itemvalue="Application.UseMap" />
+        <item itemvalue="Application.UseQueue" />
+        <item itemvalue="Application.CollectionView" />
         <item itemvalue="Application.PrimeNumber" />
-        <item itemvalue="Application.Fibonacci" />
-        <item itemvalue="Application.Factorial" />
-        <item itemvalue="Application.Pattern" />
-        <item itemvalue="Application.MakePyramid" />
       </list>
     </recent_temporary>
   </component>
@@ -176,28 +180,28 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="663" y="174" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1586488414045" />
-    <state width="1557" height="162" key="GridCell.Tab.0.bottom" timestamp="1586511687839">
+    <state width="1557" height="162" key="GridCell.Tab.0.bottom" timestamp="1586548127727">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="162" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1586511687839" />
+    <state width="1557" height="162" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1586548127727" />
     <state width="1358" height="251" key="GridCell.Tab.0.bottom/0.23.1440.831@0.23.1440.831" timestamp="1586383010674" />
     <state width="1358" height="198" key="GridCell.Tab.0.bottom/0.23.1440.832@0.23.1440.832" timestamp="1586383676637" />
-    <state width="1557" height="162" key="GridCell.Tab.0.center" timestamp="1586511687838">
+    <state width="1557" height="162" key="GridCell.Tab.0.center" timestamp="1586548127726">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="162" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1586511687838" />
+    <state width="1557" height="162" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1586548127726" />
     <state width="1358" height="251" key="GridCell.Tab.0.center/0.23.1440.831@0.23.1440.831" timestamp="1586383010673" />
     <state width="1358" height="198" key="GridCell.Tab.0.center/0.23.1440.832@0.23.1440.832" timestamp="1586383676637" />
-    <state width="1557" height="162" key="GridCell.Tab.0.left" timestamp="1586511687838">
+    <state width="1557" height="162" key="GridCell.Tab.0.left" timestamp="1586548127726">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="162" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1586511687838" />
+    <state width="1557" height="162" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1586548127726" />
     <state width="1358" height="251" key="GridCell.Tab.0.left/0.23.1440.831@0.23.1440.831" timestamp="1586383010673" />
     <state width="1358" height="198" key="GridCell.Tab.0.left/0.23.1440.832@0.23.1440.832" timestamp="1586383676637" />
-    <state width="1557" height="162" key="GridCell.Tab.0.right" timestamp="1586511687839">
+    <state width="1557" height="162" key="GridCell.Tab.0.right" timestamp="1586548127726">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="162" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1586511687839" />
+    <state width="1557" height="162" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1586548127726" />
     <state width="1358" height="251" key="GridCell.Tab.0.right/0.23.1440.831@0.23.1440.831" timestamp="1586383010674" />
     <state width="1358" height="198" key="GridCell.Tab.0.right/0.23.1440.832@0.23.1440.832" timestamp="1586383676637" />
     <state width="1358" height="143" key="GridCell.Tab.1.bottom" timestamp="1586383576421">
@@ -225,10 +229,10 @@
     </state>
     <state x="314" y="0" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1586488423256" />
     <state x="283" y="23" width="1024" height="832" key="SettingsEditor/0.23.1440.832@0.23.1440.832" timestamp="1586275290765" />
-    <state x="508" y="257" key="com.intellij.ide.util.TipDialog" timestamp="1586515945969">
+    <state x="508" y="257" key="com.intellij.ide.util.TipDialog" timestamp="1586544165623">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="508" y="257" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1586515945969" />
+    <state x="508" y="257" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1586544165623" />
     <state x="457" y="48" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1586474251595">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -279,5 +283,10 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/MidtermMarch2020$CollectionView.ic" NAME="CollectionView Coverage Results" MODIFIED="1586544538047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>datastructure.*</FILTER>
+    </SUITE>
   </component>
 </project>
