@@ -62,7 +62,7 @@ Left JOIN Customer ON Order.CustomerID = Customer.CustomerID;
 
 Right Join:
 SELECT Order.OrderID, Customer.CustomerName FROM Order
-Right JOIN Customer ON Orders.CustomerID = Customer.CustomerID;
+Right JOIN Customer ON Order.CustomerID = Customer.CustomerID;
 
 Full Join:
 SELECT Order.OrderID, Customer.CustomerName FROM Order
