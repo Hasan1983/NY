@@ -53,8 +53,8 @@ CustomerID	   CustomerName	    CustomerPhone	     Country
 
 Please do the following on above Order table and Customer table:
 
-Inner Join:SELECT Order.OrderID, Customers.CustomerName FROM Order
-INNER JOIN Customer ON Orders.CustomerID = Customer.CustomerID;
+Inner Join:SELECT Order.OrderID, Customer.CustomerName FROM Order
+INNER JOIN Customer ON Order.CustomerID = Customer.CustomerID;
 
 Left Join:
 SELECT Order.OrderID, Customer.CustomerName FROM Order
