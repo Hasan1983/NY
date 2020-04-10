@@ -53,20 +53,20 @@ CustomerID	   CustomerName	    CustomerPhone	     Country
 
 Please do the following on above Order table and Customer table:
 
-Inner Join:SELECT Orders.OrderID, Customers.CustomerName FROM Orders
-INNER JOIN Customers ON Orders.CustomerID = Customers.CustomerID;
+Inner Join:SELECT Order.OrderID, Customers.CustomerName FROM Order
+INNER JOIN Customer ON Orders.CustomerID = Customer.CustomerID;
 
 Left Join:
-SELECT Orders.OrderID, Customers.CustomerName FROM Orders
-Left JOIN Customers ON Orders.CustomerID = Customers.CustomerID;
+SELECT Order.OrderID, Customer.CustomerName FROM Order
+Left JOIN Customer ON Order.CustomerID = Customer.CustomerID;
 
 Right Join:
-SELECT Orders.OrderID, Customers.CustomerName FROM Orders
-Right JOIN Customers ON Orders.CustomerID = Customers.CustomerID;
+SELECT Order.OrderID, Customer.CustomerName FROM Order
+Right JOIN Customer ON Orders.CustomerID = Customer.CustomerID;
 
 Full Join:
-SELECT Orders.OrderID, Customers.CustomerName FROM Orders
-full JOIN Customers ON Orders.CustomerID = Customers.CustomerID;
+SELECT Order.OrderID, Customer.CustomerName FROM Order
+full JOIN Customer ON Order.CustomerID = Customer.CustomerID;
 
 On Customer Table, please Insert one row.
 A.insert into customer(CustomerID,CustomerName,CustomerPhone,Country)values('4','adam','1-347-244-9789','mexico');
