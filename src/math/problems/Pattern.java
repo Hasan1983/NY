@@ -8,6 +8,27 @@ public class Pattern {
 		 *
 		 *
 		 */
+		int num=100, n=10;
+		while (num>=90){
+			System.out.println(num+ " ");
+			num--;
+		}
+		num++;
+		for(int i=0; i<n;i++){
+			System.out.println(num-2+ " ");
+			num -=2;
+		}
+		for(int i=0;i<n;i++){
+			System.out.println(num-3+ " ");
+			num -=3;
+		}
+		for(int i=0;i<n;i++){
+			if(i<9){
+				System.out.println(num-4+ " ");
+				num -=4;
+			}else
+				System.out.println(num -=4);
+		}
 		
 
 
