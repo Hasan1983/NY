@@ -2,9 +2,34 @@ package design;
 
 import java.util.Scanner;
 
-public class EmployeeInfo {
-	
- /*This class can be implemented from Employee interface then add additional methods in EmployeeInfo class.
+public class EmployeeInfo extends EmployeeUpdate {
+	public int employeeId(){
+		int totalemployeeId=500;
+		return totalemployeeId;
+	}
+	public String employeeName(){
+		String employeeName="500";
+		return employeeName;
+	}
+	public void assignDepartment(){
+		super.assignDepartment();
+
+	}
+	public int calculateSalary(){
+		int calaulateSaalry=500000000/500;
+		return calaulateSaalry;
+	}
+	public void benefitLayout(){
+
+	}
+	 void employeePhonenubmer(){
+		 System.out.println("get the empployee phone number from database");
+
+
+}
+
+
+	/*This class can be implemented from Employee interface then add additional methods in EmployeeInfo class.
  * Also, Employee interface can be implemented into an abstract class.So create an Abstract class
  * then inherit that abstract class into EmployeeInfo class.Once you done with designing EmployeeInfo class,
  * go to FortuneEmployee class to apply all the fields and attributes.
@@ -21,7 +46,9 @@ public class EmployeeInfo {
 	 * declare few static and final fields and some non-static fields
 	 */
 	static String companyName;
-	
+	int employeeId;
+	String name;
+
 	/*
 	 * You must implement the logic for below 2 methods and 
 	 * following 2 methods are prototype as well for other methods need to be design,
@@ -31,11 +58,21 @@ public class EmployeeInfo {
 	/*
 	 * you must have multiple constructor.
 	 * Must implement below constructor.
+	 *
+	 *
 	 */
+
+	public EmployeeInfo(){
+
+	}
 	public EmployeeInfo(int employeeId){
+		this.employeeId=employeeId;
+
 		
 	}
     public EmployeeInfo(String name, int employeeId){
+		this.name=name;
+		this.employeeId=employeeId;
 		
 	}
 	

@@ -8,12 +8,12 @@ public interface Employee {
 	//please read the following method and understand the business requirements of these following methods
 	//and then implement these in a concrete class.
 	
-	//employeeId() will return employee id.
 	public int employeeId();
 	
 	//employeeName() will return employee name
 	public String employeeName();
-	
+	//employeeId() will return employee id.
+
 	//assignDepartment() will assign employee to departments
     public void assignDepartment();
 	
@@ -22,5 +22,10 @@ public interface Employee {
 	
 	//employee benefit
 	public void benefitLayout();
+
+	public static void totalEmployee(){
+		int totalEmployee=500;
+		System.out.println("total number of employee="+totalEmployee);
+	}
 
 }
