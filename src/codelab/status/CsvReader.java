@@ -7,6 +7,9 @@ import java.util.*;
 
 public class CsvReader {
 
+
+
+
     public static void main(String[] args) {
         /*
          Coma Separated Value(CSV) of your CodeLab status is downloaded and it parsed.
@@ -63,6 +66,14 @@ public class CsvReader {
             }
         }
 
+
+              int size = roster.size();
+              int total = 0;
+              for (Trainee tr: roster) {
+              total+=tr.getNumberOfExercisesSolved();
+        }
+              int avg= total/size;
+              System.out.println("\n\tThe average is="+avg);
     }
 
 }

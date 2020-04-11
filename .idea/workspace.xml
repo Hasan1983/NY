@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7553fd03-1a68-47e5-b19c-6ff669c34736" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/design/EmployeeUpdate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/Numbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/Numbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/Sort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design/EmployeeInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/EmployeeInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design/FortuneEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/FortuneEmployee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/math/problems/FindMissingNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/problems/FindMissingNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/codelab/status/CsvReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codelab/status/CsvReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design/EmployeeUpdate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/EmployeeUpdate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/string/problems/Anagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/problems/Anagram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/string/problems/DetermineLargestWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/problems/DetermineLargestWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/string/problems/DuplicateWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/problems/DuplicateWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/string/problems/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/problems/Palindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/string/problems/Permutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/problems/Permutation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,17 +47,17 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Numbers">
+  <component name="RunManager" selected="Application.CsvReader">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
-    <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="math.problems.Factorial" />
+    <configuration name="CsvReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codelab.status.CsvReader" />
       <module name="CodingExamMarch2020" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="math.problems.*" />
+          <option name="PATTERN" value="codelab.status.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,13 +65,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindMissingNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="math.problems.FindMissingNumber" />
+    <configuration name="DetermineLargestWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.problems.DetermineLargestWord" />
       <module name="CodingExamMarch2020" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="math.problems.*" />
+          <option name="PATTERN" value="string.problems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,13 +79,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FortuneEmployee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="design.FortuneEmployee" />
+    <configuration name="DuplicateWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.problems.DuplicateWord" />
       <module name="CodingExamMarch2020" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="design.*" />
+          <option name="PATTERN" value="string.problems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,13 +93,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LowestNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="math.problems.LowestNumber" />
+    <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.problems.Palindrome" />
       <module name="CodingExamMarch2020" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="math.problems.*" />
+          <option name="PATTERN" value="string.problems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,13 +107,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Numbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.Numbers" />
+    <configuration name="Permutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.problems.Permutation" />
       <module name="CodingExamMarch2020" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm.*" />
+          <option name="PATTERN" value="string.problems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Numbers" />
-        <item itemvalue="Application.Factorial" />
-        <item itemvalue="Application.FindMissingNumber" />
-        <item itemvalue="Application.LowestNumber" />
-        <item itemvalue="Application.FortuneEmployee" />
+        <item itemvalue="Application.CsvReader" />
+        <item itemvalue="Application.Permutation" />
+        <item itemvalue="Application.Palindrome" />
+        <item itemvalue="Application.DuplicateWord" />
+        <item itemvalue="Application.DetermineLargestWord" />
       </list>
     </recent_temporary>
   </component>
@@ -187,28 +187,28 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="663" y="174" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1586488414045" />
-    <state width="1557" height="200" key="GridCell.Tab.0.bottom" timestamp="1586596855341">
+    <state width="1557" height="167" key="GridCell.Tab.0.bottom" timestamp="1586634168678">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="200" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1586596855341" />
+    <state width="1557" height="167" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1586634168678" />
     <state width="1358" height="251" key="GridCell.Tab.0.bottom/0.23.1440.831@0.23.1440.831" timestamp="1586383010674" />
     <state width="1358" height="198" key="GridCell.Tab.0.bottom/0.23.1440.832@0.23.1440.832" timestamp="1586383676637" />
-    <state width="1557" height="200" key="GridCell.Tab.0.center" timestamp="1586596855341">
+    <state width="1557" height="167" key="GridCell.Tab.0.center" timestamp="1586634168678">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="200" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1586596855341" />
+    <state width="1557" height="167" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1586634168678" />
     <state width="1358" height="251" key="GridCell.Tab.0.center/0.23.1440.831@0.23.1440.831" timestamp="1586383010673" />
     <state width="1358" height="198" key="GridCell.Tab.0.center/0.23.1440.832@0.23.1440.832" timestamp="1586383676637" />
-    <state width="1557" height="200" key="GridCell.Tab.0.left" timestamp="1586596855341">
+    <state width="1557" height="167" key="GridCell.Tab.0.left" timestamp="1586634168678">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="200" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1586596855341" />
+    <state width="1557" height="167" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1586634168677" />
     <state width="1358" height="251" key="GridCell.Tab.0.left/0.23.1440.831@0.23.1440.831" timestamp="1586383010673" />
     <state width="1358" height="198" key="GridCell.Tab.0.left/0.23.1440.832@0.23.1440.832" timestamp="1586383676637" />
-    <state width="1557" height="200" key="GridCell.Tab.0.right" timestamp="1586596855341">
+    <state width="1557" height="167" key="GridCell.Tab.0.right" timestamp="1586634168678">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="200" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1586596855341" />
+    <state width="1557" height="167" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1586634168678" />
     <state width="1358" height="251" key="GridCell.Tab.0.right/0.23.1440.831@0.23.1440.831" timestamp="1586383010674" />
     <state width="1358" height="198" key="GridCell.Tab.0.right/0.23.1440.832@0.23.1440.832" timestamp="1586383676637" />
     <state width="1557" height="200" key="GridCell.Tab.1.bottom" timestamp="1586596855341">
@@ -240,10 +240,10 @@
     </state>
     <state x="314" y="0" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1586488423256" />
     <state x="283" y="23" width="1024" height="832" key="SettingsEditor/0.23.1440.832@0.23.1440.832" timestamp="1586275290765" />
-    <state x="508" y="257" key="com.intellij.ide.util.TipDialog" timestamp="1586561386813">
+    <state x="508" y="257" key="com.intellij.ide.util.TipDialog" timestamp="1586627890914">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="508" y="257" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1586561386813" />
+    <state x="508" y="257" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1586627890914" />
     <state x="457" y="48" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1586474251595">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -284,12 +284,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/codelab/status/CsvReader.java</url>
-          <line>24</line>
+          <line>27</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/codelab/status/CsvReader.java</url>
-          <line>43</line>
+          <line>46</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>

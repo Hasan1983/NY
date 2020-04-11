@@ -25,6 +25,7 @@ public abstract class EmployeeUpdate implements Employee {
      return calculateSalary();
     }
     public void benefitLayout(){
+        System.out.println("medical,bonus");
 
     }
     abstract void employeePhonenubmer();
