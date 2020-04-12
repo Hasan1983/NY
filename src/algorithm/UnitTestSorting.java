@@ -24,8 +24,9 @@ public class UnitTestSorting {
         //Now implement Unit test for rest of the soring algorithm...................below
 
         //insertion sort
-        //Sort sort=new Sort();
+
         unSortedArray = new int[]{6, 9, 2, 5, 1, 0, 4};
+        //Sort sort=new Sort();
         sort.insertionSort(unSortedArray);
         try {
             Assert.assertEquals(sortedArray, unSortedArray, "Array is not Sorted");

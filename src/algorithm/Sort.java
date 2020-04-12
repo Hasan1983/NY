@@ -89,20 +89,6 @@ public class Sort {
 
     public int [] quickSort(int [] array, int firstIndex,int lastIndex){
         int [] list = array;
-        //implement here
-       // final long startTime = System.currentTimeMillis();
-       // int low = firstIndex;
-        //int high = lastIndex;
-       // if (low < high)
-       // {
-           // int pi =partition(list, low, high);
-           // quickSort(list, low, pi - 1);
-           // quickSort(list, pi + 1, high);
-        //}
-
-       // final long endTime = System.currentTimeMillis();
-       // final long executionTime = endTime - startTime;
-       // this.executionTime = executionTime;
 
 
 
