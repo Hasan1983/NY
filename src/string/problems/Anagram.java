@@ -15,9 +15,9 @@ public class Anagram {
 
     public static void isAnagram(String input1, String input2){
 
-        String  s1= input1.replaceAll("\\s", "");
+        String  s1= input1.replaceAll(" ", "");
 
-        String s2 = input2.replaceAll("\\s", "");
+        String s2 = input2.replaceAll(" ", "");
 
         boolean status = true;
 

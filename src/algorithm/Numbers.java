@@ -36,6 +36,8 @@ public class Numbers {
 		//int n = num.length;
 		//randomize (num, n);
 
+		//trying insertation sort.
+
 		//Insertion Sort
 		algo.insertionSort(num);
 		long insertionSortExecutionTime = algo.executionTime;

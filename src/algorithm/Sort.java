@@ -35,21 +35,18 @@ public class Sort {
         final long startTime = System.currentTimeMillis();
         int [] list = array;
         //implement here
-        int n=array.length;
-        for (int j = 1; j < n; j++) {
-            int min = array[j];
-            int i = j-1;
-            while ( (i > -1) && ( array [i] > min ) ) {
-                array [i+1] = array [i];
-                i--;
+        int temp;
+        for(int i=0;i<array.length;i++){
+            for(int j=i;j>0;j--){
+                if(array[j]<array[j-1]){
+                    temp=array[j];
+                    array[j]=array[j-1];
+                    array[j-1]=temp;
+                }
             }
-            array[i+1] = min;
         }
 
-
-
-
-    final long endTime = System.currentTimeMillis();
+        final long endTime = System.currentTimeMillis();
         final long executionTime = endTime - startTime;
         this.executionTime = executionTime;
         return list;

@@ -4,9 +4,9 @@ import java.util.Scanner;
 public class EmployeeInfo extends EmployeeUpdate{
 
 
-	//int id;
-	//String name;
-	//public  final int Salary=80000;
+	int EmployeeId;
+	String name;
+	public  final int Salary=80000;
 	final String countryname="u.s.a";
 	int salary=0;
 	int year=0;
@@ -37,9 +37,7 @@ public EmployeeInfo(){
 
 	}
 
-	public EmployeeInfo(String name){
-		this.name=name;
-	}
+
 
 
 
@@ -79,11 +77,36 @@ public EmployeeInfo(){
 		this.id=employeeId;
 
 	}
-	public EmployeeInfo(String name, int employeeId){
-		super(name);
+	public void Employeeinformation(String name, int employeeId, int salary, String companyname){
+		this.name=name;
 		this.id=employeeId;
-
+		this.salary=salary;
 	}
+
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int getEmployeeId() {
+		return EmployeeId;
+	}
+
+	public void setEmployeeId(int employeeId) {
+		EmployeeId = employeeId;
+	}
+
+	public String getCountryname() {
+		return countryname;
+	}
+
+
+
+
 
 	/*
 	 * This methods should calculate Employee bonus based on salary and performance.

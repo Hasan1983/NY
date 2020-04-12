@@ -14,9 +14,16 @@ public class FortuneEmployee {
 	 *
 	 **/
 	public static void main(String[] args) {
-		EmployeeInfo emp1=new EmployeeInfo(1);
+		EmployeeInfo emp1=new EmployeeInfo();
 		emp1.assignDepartment();
-		emp1.calculateSalary();
+		emp1.setName("javaed");
+		emp1.setEmployeeId(101);
+		Employee.totalEmployee();
+
+		System.out.println(emp1.getEmployeeId()    +" " +emp1.getName());
+		System.out.println(emp1.getCountryname());
+
+
 
 
 

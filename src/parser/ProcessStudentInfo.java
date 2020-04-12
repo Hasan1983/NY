@@ -62,15 +62,40 @@ public class ProcessStudentInfo {
 
 				
 				//add Selenium ArrayList data into map.
+				list.put("selenium", seleniumStudents);
+
 
 				//add Qtp ArrayList data into map.
 		
 		      	
 				//Retrieve map data and display output.
+				for (Map.Entry<String, List<Student>> value : list.entrySet()) {
+
+					List<Student> students = (List<Student>) list.get(value.getKey());
+
+
+					System.out.println("|\t" +value.getKey() + " Students");
 
 
 
-				//Store Qtp data into Qtp table in Database
+					for (Student s : students) {
+
+						String id = s.getId();
+
+						String firstName = s.getFirstName();
+
+						String lastName = s.getLastName();
+
+						String grade = s.getScore();
+
+						System.out.println("Students id=" + id + "  " + "  Grade= " + grade + " '" +firstName + "' '" + lastName);
+
+					}
+
+
+
+
+					//Store Qtp data into Qtp table in Database
 				connectToMongoDB.insertIntoMongoDB(seleniumStudents,"qtp");
 				//connectToSqlDB.insertDataFromArrayListToMySql(seleniumStudents, "qtp","studentList");
 
@@ -86,5 +111,7 @@ public class ProcessStudentInfo {
 
 
 			}
+
+}
 
 }

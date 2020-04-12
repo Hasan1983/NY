@@ -18,8 +18,8 @@ public class UseQueue {
 		queueNames.add("adnan");
 
 
-		//System.out.println("who's next: " + queueNames.poll());
-		//System.out.println("who's next: " + queueNames.peek());
+		//System.out.println("who is next: " + queueNames.poll());
+		//System.out.println("who is next: " + queueNames.peek());
 		//String next=queueNames.remove();
 		//System.out.println(next);
 
