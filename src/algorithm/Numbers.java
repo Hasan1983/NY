@@ -39,16 +39,29 @@ public class Numbers {
 		//trying insertation sort.
 
 		//Insertion Sort
-		algo.insertionSort(num);
+		//algo.insertionSort(num);
+		//long insertionSortExecutionTime = algo.executionTime;
+		//System.out.println("Total Execution Time of " + num.length + " numbers in Insertion Sort take: " + insertionSortExecutionTime + " milli sec");
+
+		//By following above, Continue for rest of the Sorting Algorithm....
+		//connectToSqlDB.insertDataFromArrayToSqlTable(num, "Insertion_sort", "SortingNumbers");
+		//List<String> numbers = connectToSqlDB.readDataBase("Insertion_sort", "SortingNumbers");
+		//printValue(numbers);
+		//int n2 = num.length;
+		//randomize (num, n2);
+
+		//bubble short
+		algo.bubbleSort(num);
 		long insertionSortExecutionTime = algo.executionTime;
 		System.out.println("Total Execution Time of " + num.length + " numbers in Insertion Sort take: " + insertionSortExecutionTime + " milli sec");
 
 		//By following above, Continue for rest of the Sorting Algorithm....
-		connectToSqlDB.insertDataFromArrayToSqlTable(num, "Insertion_sort", "SortingNumbers");
-		List<String> numbers = connectToSqlDB.readDataBase("Insertion_sort", "SortingNumbers");
+		connectToSqlDB.insertDataFromArrayToSqlTable(num, "bubble_sort", "SortingNumbers");
+		List<String> numbers = connectToSqlDB.readDataBase("bubble_sort", "SortingNumbers");
 		printValue(numbers);
-		int n = num.length;
-		randomize (num, n);
+		int n3 = num.length;
+		randomize (num, n3);
+
 
 
 
