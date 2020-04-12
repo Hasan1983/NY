@@ -1,102 +1,122 @@
 package design;
 
 import java.util.Scanner;
+public class EmployeeInfo extends EmployeeUpdate{
 
-public class EmployeeInfo extends EmployeeUpdate {
+
+	//int id;
+	//String name;
+	//public  final int Salary=80000;
+	final String countryname="u.s.a";
+	int salary=0;
+	int year=0;
+
+
 	public int employeeId(){
-		int totalemployeeId=500;
-		return totalemployeeId;
+		return this.id;
 	}
 	public String employeeName(){
-		String employeeName="500";
-		return employeeName;
+		return this.name;
 	}
 	public void assignDepartment(){
 		super.assignDepartment();
-
 	}
-	public int calculateSalary(){
-		int calaulateSaalry=500000000/500;
-		return calaulateSaalry;
+	public int calculateSalary() {
+		return this.Salary;
 	}
 	public void benefitLayout(){
+		System.out.println("medical,bonus");
 
 	}
-	 void employeePhonenubmer(){
-		 System.out.println("get the empployee phone number from database");
+	 void employeePhoneNumber(){
+		System.out.println( "get the phone number from databases");
 
 
 }
+public EmployeeInfo(){
+
+	}
+
+	public EmployeeInfo(String name){
+		this.name=name;
+	}
+
+
+
+
+
 
 
 	/*This class can be implemented from Employee interface then add additional methods in EmployeeInfo class.
- * Also, Employee interface can be implemented into an abstract class.So create an Abstract class
- * then inherit that abstract class into EmployeeInfo class.Once you done with designing EmployeeInfo class,
- * go to FortuneEmployee class to apply all the fields and attributes.
- * 
- * Important: YOU MUST USE the 
- * OOP(abstraction,Encapsulation, Inheritance and Polymorphism) concepts in every level possible.
- * Use all kind of keywords(super,this,static,final........)
- * Implement Nested class.
- * Use Exception Handling.
- *
- */
+	 * Also, Employee interface can be implemented into an abstract class.So create an Abstract class
+	 * then inherit that abstract class into EmployeeInfo class.Once you done with designing EmployeeInfo class,
+	 * go to FortuneEmployee class to apply all the fields and attributes.
+	 *
+	 * Important: YOU MUST USE the
+	 * OOP(abstraction,Encapsulation, Inheritance and Polymorphism) concepts in every level possible.
+	 * Use all kind of keywords(super,this,static,final........)
+	 * Implement Nested class.
+	 * Use Exception Handling.
+	 *
+	 */
 
 	/*
 	 * declare few static and final fields and some non-static fields
 	 */
 	static String companyName;
-	int employeeId;
-	String name;
 
 	/*
-	 * You must implement the logic for below 2 methods and 
+	 * You must implement the logic for below 2 methods and
 	 * following 2 methods are prototype as well for other methods need to be design,
 	 * as you will come up with the new ideas.
 	 */
-	
+
 	/*
 	 * you must have multiple constructor.
 	 * Must implement below constructor.
-	 *
-	 *
 	 */
-
-	public EmployeeInfo(){
-
-	}
 	public EmployeeInfo(int employeeId){
-		this.employeeId=employeeId;
+		this.id=employeeId;
 
-		
 	}
-    public EmployeeInfo(String name, int employeeId){
-		this.name=name;
-		this.employeeId=employeeId;
-		
+	public EmployeeInfo(String name, int employeeId){
+		super(name);
+		this.id=employeeId;
+
 	}
-	
+
 	/*
 	 * This methods should calculate Employee bonus based on salary and performance.
 	 * Then it will return the total yearly bonus. So you need to implement the logic.
-	 * Hints: 10% of the salary for best performance, 8% of the salary for average performance and so on. 
+	 * Hints: 10% of the salary for best performance, 8% of the salary for average performance and so on.
 	 * You can set arbitrary number for performance.
 	 * So you probably need to send 2 arguments.
-	 * 
+	 *
 	 */
-	public static int calculateEmployeeBonus(int numberOfYearsWithCompany){
-		int total=0;
-
-
-
-		return total;
+	public static int calculateEmployeeBonus(int numberOfYearsWithCompany, double yearlySalary){
+		double yearlyBonus = 0.00;
+		if (numberOfYearsWithCompany == 5) {
+			yearlyBonus = yearlySalary* 0.1;
+		} else if (numberOfYearsWithCompany == 4) {
+			yearlyBonus = yearlySalary * 0.08;
+		} else if (numberOfYearsWithCompany == 3) {
+			yearlyBonus = yearlySalary * 0.06;
+		} else if (numberOfYearsWithCompany == 2) {
+			yearlyBonus = 0;
+			System.out.println("Your performance is poor, needs improvement.");
+		} else {
+			yearlyBonus = 0;
+			System.out.println("You do not meet the standards for a bonus.");
+		}
+		return (int) yearlyBonus;
 	}
-	
+
+
 	/*
 	 * This methods should calculate Employee Pension based on salary and numbers of years with the company.
 	 * Then it will return the total pension. So you need to implement the logic.
 	 * Hints: pension will be 5% of the salary for 1 year, 10% for 2 years with the company and so on.
-	 * 
+	 *
 	 */
 	public static int calculateEmployeePension(){
 		int total=0;
@@ -105,10 +125,10 @@ public class EmployeeInfo extends EmployeeUpdate {
 		String joiningDate = sc.nextLine();
 		System.out.println("Please enter today's date in format (example: August,2017): ");
 		String todaysDate = sc.nextLine();
-        String convertedJoiningDate = DateConversion.convertDate(joiningDate);
-        String convertedTodaysDate = DateConversion.convertDate(todaysDate);
+		String convertedJoiningDate = DateConversion.convertDate(joiningDate);
+		String convertedTodaysDate = DateConversion.convertDate(todaysDate);
 
-        //implement numbers of year from above two dates
+		//implement numbers of year from above two dates
 		//Calculate pension
 
 
@@ -175,3 +195,9 @@ public class EmployeeInfo extends EmployeeUpdate {
 		}
 	}
 }
+
+
+
+
+
+

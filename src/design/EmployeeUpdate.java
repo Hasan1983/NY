@@ -2,33 +2,44 @@ package design;
 
 public abstract class EmployeeUpdate implements Employee {
 
-    public int employeeId(){
-         int totalemployeeId=500;
-         return totalemployeeId;
+      int id;
+       String name;
+       public  final int Salary=80000;
+       static String CompanyName="Target";
+       String Department;
+
+       public int employeeId(){
+
+         return this.id;
     }
     public String employeeName(){
-        String totalemployeeName="500";
-         return totalemployeeName;
+
+         return this.name;
     }
     public void assignDepartment(){
-        int totalDepartment=10;
-        int itDEpartmentEmployee=100;
-        int  QaDepartmentEmployee=50;
-        System.out.println(totalDepartment);
-        System.out.println(QaDepartmentEmployee);
-        System.out.println(itDEpartmentEmployee);
+        System.out.println("there are few deparment");
     }
     public int calculateSalary(){
-     int fulltimehours=0;
-     int halftimehours=0;
-     int salary;
-     return calculateSalary();
+    return this.Salary;
+
     }
     public void benefitLayout(){
         System.out.println("medical,bonus");
 
     }
-    abstract void employeePhonenubmer();
+     void employeePhoneNumber(){
+        System.out.println( "get the phone number from databases");
+    }
 
+
+
+
+    public  EmployeeUpdate(){
+
+    }    EmployeeUpdate(String name){
+           this.name=name;
+    }
 
 }
+
+
